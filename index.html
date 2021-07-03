@@ -5,8 +5,30 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Developer Portfolio</title>
- <!-- <link rel="stylesheet" href="./assets/CSS/style.css" /> --> 
+  <link rel="stylesheet" href= "./assets/CSS/style.css" /> 
 </head>
+
+<!--INSTRUCTIONS
+    
+    GIVEN I need to sample a potential employee's previous work
+
+WHEN I load their portfolio
+THEN I am presented with the developer's name, a recent photo or avatar, and links to sections about them, their work, and how to contact them
+
+WHEN I click one of the links in the navigation
+THEN the UI scrolls to the corresponding section
+
+WHEN I click on the link to the section about their work
+THEN the UI scrolls to a section with titled images of the developer's applications
+
+WHEN I am presented with the developer's first application
+THEN that application's image should be larger in size than the others
+
+WHEN I click on the images of the applications
+THEN I am taken to that deployed application
+
+WHEN I resize the page or view the site on various screens and devices
+THEN I am presented with a responsive layout that adapts to my viewport-->
 
 <body>
     <!-- Navigation -->
@@ -32,8 +54,8 @@
     </header>
 
     <!--Hero-->
-    <section class="subtitle">
-        <h2>
+    <section class="hero">
+        <h2 class="subtitle">
             Thinking, Building, and Sharing Ideas
         </h2>
     </section>
@@ -41,7 +63,7 @@
     <!--About Me Section-->
     <section id="about-me">
         <h2 class="section-title"> About Me </h2>
-        <p>Hello! welcome to my portfolio! I am a developer that loves to think, build and share my ideas. I am a life-long learner and love to share what I learn with others. I am passionate about leadership development and helping other become the best versions of themselves.
+        <p class="text">Hello! welcome to my portfolio! I am a developer that loves to think, build and share my ideas. I am a life-long learner and love to share what I learn with others. I am passionate about leadership development and helping other become the best versions of themselves.
         </p>
     </section>
 
@@ -51,12 +73,14 @@
 
     <section id="contact-me">
         <h2 class="section-title"> Contact Me </h2>
-        <p> Phone: 111-222-1234 | Email: myemail@email.com</p>
+        <p class="text"> Phone: 111-222-1234 | Email: myemail@email.com</p>
     </section>
 
     <!--Footer-->
-    <h4> Made By Isaiah Negron <br/>
-         &copy; 2021 Negron Enterprises </h4>
-
+    <footer>
+        <h4 class="signature"> Made By Isaiah Negron <br/>
+            &copy; 2021 Negron Enterprises </h4>
+    </footer>
+   
  </body>
     

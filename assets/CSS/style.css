@@ -1,0 +1,112 @@
+:root {
+    --primary-color: #D7D7D9;
+    --secondary-color:#184059;
+    --tertiary-color: #8C2F1B;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+      background-color: var(--primary-color);
+    color: var(--secondary-color);
+    font-family: Helvetica, Arial, sans-serif;
+  }
+
+  header {
+    padding: 20px 35px;
+    background-color: var(--secondary-color);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    /*position: -webkit-sticky;
+    position: sticky;*/
+    top:0;
+    background-size: cover;
+    background-position: 80%;
+    background-attachment: fixed;
+    z-index: 9999;
+  }
+
+  header h1 {
+    font-weight: bold;
+    font-size: 36px;
+    color: var(--primary-color);
+    margin: 0;
+    text-shadow: 0 0 10px rgba(0,0,0,0.5);
+  }
+  header a {
+    text-decoration: none;
+    color: var(--primary-color);
+  }
+  
+  header nav {
+    margin: 7px 0;
+  }
+  
+  header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+  }
+  
+  header nav ul li a {
+    padding: 10px 15px;
+    font-weight: lighter;
+    font-size: 1.55vw;
+    text-shadow: 0 0 10px rgba(0,0,0,0.5);
+  }
+
+  
+
+  .hero {
+    background-image: url('../images/hero.jpeg');
+    background-size: cover;
+    background-position: center;
+    display: flex; 
+    justify-content: flex-end;
+    flex-wrap: wrap;
+  }
+
+  .subtitle {
+      color: var(--primary-color);
+      text-align: right;
+  }
+
+  .section-title{
+      display: flex;
+      height: 200px;
+      justify-content:space-between;
+      flex-wrap: wrap;
+      flex-direction: column;
+
+  }
+
+  .text {
+      display: flex;
+      width: 300px;
+      justify-content: flex-end;
+      flex-wrap: wrap;
+      flex-direction: column;
+  }
+
+  footer {
+    background: var(--secondary-color);
+    width: 100%;
+    padding: 20px 20px;
+    display: flex;
+    justify-content:center;
+    flex-wrap: wrap;
+  }
+
+  .signature {
+      color: var(--primary-color);
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+  }
