@@ -1,86 +1,146 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Developer Portfolio</title>
-  <link rel="stylesheet" href= "./assets/CSS/style.css" /> 
-</head>
-
-<!--INSTRUCTIONS
-    
-    GIVEN I need to sample a potential employee's previous work
-
-WHEN I load their portfolio
-THEN I am presented with the developer's name, a recent photo or avatar, and links to sections about them, their work, and how to contact them
-
-WHEN I click one of the links in the navigation
-THEN the UI scrolls to the corresponding section
-
-WHEN I click on the link to the section about their work
-THEN the UI scrolls to a section with titled images of the developer's applications
-
-WHEN I am presented with the developer's first application
-THEN that application's image should be larger in size than the others
-
-WHEN I click on the images of the applications
-THEN I am taken to that deployed application
-
-WHEN I resize the page or view the site on various screens and devices
-THEN I am presented with a responsive layout that adapts to my viewport-->
-
-<body>
-    <!-- Navigation -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Isaiah's Portfolio</title>
+  </head>
+  <body>
+    <!-- navigation tags - block level element -->
     <header>
-        <h1>
-            <a href="/">
-            Isaiah's Portfolio
-            </a>
-        </h1>
-        <nav>
-            <ul>
-                <li>
-                    <a href="#about-me">About Me</a>
-                </li>
-                <li>
-                    <a href="#my-work"> Work </a>
-                </li>
-                <li>
-                    <a href="#contact-me"> Contact</a>
-                </li>
-            </ul>
-        </nav>
+      <h1>
+        <a href="/">Isaiah A. Negron</a>
+      </h1>
+      <nav>
+        <ul>
+          <li>
+            <a href="#about">About</a>
+          </li>
+          <li>
+            <a href="#projects">Projects</a>
+          </li>
+          <li>
+            <a href="#connect">Connect</a>
+          </li>
+        </ul>
+      </nav>
     </header>
+    <!-- end navigation -->
 
-    <!--Hero-->
+    <!-- hero/jumbotron -->
     <section class="hero">
-        <h2 class="subtitle">
-            Thinking, Building, and Sharing Ideas
-        </h2>
-    </section>
-
-    <!--About Me Section-->
-    <section id="about-me">
-        <h2 class="section-title"> About Me </h2>
-        <p class="text">Hello! welcome to my portfolio! I am a developer that loves to think, build and share my ideas. I am a life-long learner and love to share what I learn with others. I am passionate about leadership development and helping other become the best versions of themselves.
+      <div class="hero-cta">
+        <h2>Dream The Vision. <br>
+          Build The Vision. <br>
+          Share The Vision.</h2>
+        <p>
+          <br>
+          Full-Stack web developer leveraging a communications background to build a more 
+          innovative experience on the web. Recently earned a certificate from the University 
+          of Kansas. Known as an innovative problem solver passionate about developing apps with
+          a focus on a cutting edge design and an impactful user experience. I'm all about bringing
+          peoples vision to life, and sharing that vision with the world.
         </p>
-    </section>
+      </div>
 
-    <section id="my-work">
-        <h2 class="section-title"> Work </h2>
+      <div class="hero-profile-pic">
+        <img src="./assets/images/profile.jpg" width="300" height="400">
+    </div>
     </section>
+    <!-- end header -->
 
-    <section id="contact-me">
-        <h2 class="section-title"> Contact Me </h2>
-        <p class="text"> Phone: 111-222-1234 | Email: myemail@email.com</p>
+    <!-- about me start - <section> -->
+    <section id="about" class="intro">
+      <div class="flex-row">
+        <h2 class="section-title primary-border">
+          About Me
+        </h2>
+      </div>
+      <div class="flex-row">
+        <p>
+          Hello! I'm Isaiah, I have always had a knack for creating things with the intention of making things in life simplified.
+          I enjoy photography, graphic design, and above all, coding! Though I am in training as a Full-Stack Engineer, I for sure have
+          a special spot in my heart for front-end development. I have a passion for people and helping people become the best
+          versions of themselves that they can be. I am an extrovert with introverted tendencies and I am always learning! Catch with a book,
+          a podcast and of course my computer at all times!
+        </p>
+      </div>
     </section>
+    <!-- end about me -->
 
-    <!--Footer-->
+
+    <!-- "my work" start -->
+    <section id="projects">
+      <div class="flex-row">
+        <h2 class="section-title primary-border">
+          Projects
+        </h2>
+      </div>
+
+      <div class="trainers">
+        <article class="trainer">
+          <img src="./assets/images/trainer-1.jpg" alt="Arron Stephens in his workout clothes, ready to pump iron" />
+          <div class="trainer-bio">
+            <h3 class="trainer-name">Arron Stephens</h3>
+            <h4 class="trainer-role">Speed / Strength</h4>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi neque animi quo cupiditate commodi saepe culpa sed itaque velit maiores optio dolorem excepturi aperiam dolores, voluptatibus suscipit amet quis repellat!</p>
+          </div>
+        </article>
+
+        <article class="trainer">
+          <img src="./assets/images/trainer-2.jpg" alt="Joanna Gill cooling off after a work out" />
+          <div class="trainer-bio">
+            <h3 class="trainer-name">Joanna Gill</h3>
+            <h4 class="trainer-role">Endurance</h4>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi neque animi quo cupiditate commodi saepe culpa sed itaque velit maiores optio dolorem excepturi aperiam dolores, voluptatibus suscipit amet quis repellat!</p>
+            </div>
+          </article>
+
+        <article class="trainer">
+          <img src="./assets/images/trainer-3.jpg" alt="Harry Smith wearing a headband and lifting comically small pink weights" />
+          <div class="trainer-bio">
+            <h3 class="trainer-name">Harry "The Headband" Smith</h3>
+            <h4 class="trainer-role">Strength</h4>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi neque animi quo cupiditate commodi saepe culpa sed itaque velit maiores optio dolorem excepturi aperiam dolores, voluptatibus suscipit amet quis repellat!</p>
+          </div>
+        </article>
+      </div>
+    </section>
+    <!-- "my work" end -->
+
+    <!-- "contact" start -->
+    <section id="connect" class="contact">
+      <div class="flex-row">
+        <h2 class="section-title secondary-border">
+          Connect With Me
+        </h2>
+      </div>
+
+      <div class="contact-info">
+        <div>
+          <h3>Isaiah Negron</h3>
+          <p>
+            I look forward to working with you!
+          </p>
+
+          <div>
+            Email: <a href="mailto:isaiahanegron@gmail.com">isaiahanegron@gmail.com</a> <br>
+            Github: <a href="https://github.com/IsaiahNegron"> Isaiah Negron </a>
+          </div>
+          
+        </div>
+      </div>
+    </section>
+    <!-- "contact end -->
+
+    <!-- footer -->
     <footer>
-        <h4 class="signature"> Made By Isaiah Negron <br/>
-            &copy; 2021 Negron Enterprises </h4>
+      <h3> Made by Isaiah A. Negron.</h3>
+      <div>
+        &copy; 2021 Negron Tech Global Inc.
+      </div>
     </footer>
-   
- </body>
-    
+    <!-- footer end -->
+  </body>
+</html>
