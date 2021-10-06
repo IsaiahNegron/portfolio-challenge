@@ -1,21 +1,40 @@
-# portfolio-challenge
+# Isaiah's Portfolio
 
-GIVEN I need to sample a potential employee's previous work
+  ![badge](https://img.shields.io/badge/license-MIT-important)
 
-WHEN I load their portfolio
-THEN I am presented with the developer's name, a recent photo or avatar, and links to sections about them, their work, and how to contact them
+  ## Description
 
-WHEN I click one of the links in the navigation
-THEN the UI scrolls to the corresponding section
+    I was tasked for a challenge to create a portfolio using semantic html and advanced css. No other technologies were used in the process.
 
-WHEN I click on the link to the section about their work
-THEN the UI scrolls to a section with titled images of the developer's applications
+  ## Table of Contents
+  - [Description](#Description)
+  - [Installation Instructions](#Installation)
+  - [Usage](#Usage)
+  - [Contributions](#Contributions)
+  - [Testing](#Tests)
+  - [License](#License)
+  - [Github](#Github)
+  - [Contact](#Contact)
 
-WHEN I am presented with the developer's first application
-THEN that application's image should be larger in size than the others
+  ## Installation Instructions
+  Not really... just click the deployed application!
 
-WHEN I click on the images of the applications
-THEN I am taken to that deployed application
+  ## Usage
+  This will be used as my personal portfolio for my new career as a developer
 
-WHEN I resize the page or view the site on various screens and devices
-THEN I am presented with a responsive layout that adapts to my viewport
+  ## Contributions
+  KU Full-Stack Bootcamp, Run Buddy, Classmates
+
+  ## Testing
+  Simplyed Deployed the link and consistently check progress as I worked on the project.
+
+  ## License
+  ![badge](https://img.shields.io/badge/license-MIT-important)
+  <br>
+  Permission to use this application is granted under the MIT License. <https://opensource.org/licenses/MIT>
+
+  ## Github Username
+  Lets Connect: Isaiah Negron
+
+  ## Contact
+  If you have any questions feel free to contact me at <a href='mailto:isaiahanegron@gmail.com'>isaiahanegron@gmail.com</a>
