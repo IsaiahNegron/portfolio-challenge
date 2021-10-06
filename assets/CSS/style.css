@@ -85,20 +85,19 @@ footer {
   width: 100%;
 }
 
-footer h2 {
-  color: var(--secondary-color);
-  font-size: 30px;
+footer h5 {
+  color: whitesmoke;
+  font-size: 15px;
   margin: 0;
 }
 
 footer div {
+  color: whitesmoke;
   line-height: 1.5;
   text-align: right;
 }
 
-footer a {
-  color: var(--secondary-color);
-}
+
 /* END FOOTER STYLES */
 
 /* STYLE ALL SECTION TAGS */
@@ -134,7 +133,7 @@ section {
 }
 
 img{
-  border: 3px solid var(--secondary-color);
+  border: 3px solid #F5BE0D;
 }
 
 .hero-profile-pic {
@@ -159,12 +158,9 @@ img{
 }
 
 .primary-border {
-  border-color: var(--primary-color);
+  border-color: #F5BE0D;
 }
 
-.secondary-border {
-  border-color: var(--tertiary-color);
-}
 /* SECTION TITLE STYLES END */
 
 /* WHAT WE DO STYLES */
@@ -179,8 +175,8 @@ img{
 /* WHAT YOU DO STYLES END */
 
 
-/* MEET THE TRAINERS START */
-.trainers {
+/* projects START */
+.cards {
   width: 100%;
   margin: 0 auto;
   display: flex;
@@ -188,40 +184,40 @@ img{
   justify-content: space-around;
 }
 
-.trainer {
+.project-card {
   margin: 20px;
   flex: 1;
-  background: var(--secondary-color);
+  background: #F5BE0D;
   color: var(--primary-color);
 }
 
-.trainer img {
+.project-card img {
   width: 100%;
 }
 
-.trainer-bio {
+.project-bio {
   padding: 25px;
   line-height: 1.3;
 }
 
-.trainer-bio h3 {
+.project-bio h3 {
   font-size: 28px;
 }
 
-.trainer-bio h4 {
+.project-bio h4 {
   font-weight: lighter;
   font-size: 22px;
   margin-bottom: 15px;
 }
 
-.trainer-bio p {
+.project-bio p {
   font-size: 17px;
 }
 /* TRAINER STYLES END */
 
 /* REACH OUT STYLES START */
 .contact {
-  background: var(--secondary-color);
+  background: #E5E4E2;
 }
 
 .contact h2 {
@@ -303,11 +299,8 @@ img{
     width: 100%;
   }
 
-  .hero-cta, .hero-form {
+  .hero-cta{
     width: 100%;
-  }
-  
-  .hero-cta {
     text-align: center;
   }
 
@@ -315,13 +308,10 @@ img{
     width: 80%;
   }
   
-  .trainer {
+  .project-card {
     flex: 0 70%;
   }
   
-  .contact-info iframe{
-    flex: 1 100%;
-  }
 }
 
 /* MEDIA QUERY FOR TABLETS AND SMALLER */
@@ -330,38 +320,13 @@ img{
     padding: 30px 15px;
   }
 
-  .step h3 {
-    flex: 1 100%;
-    text-align: center;
-  }
-
-  .step-info {
-    flex: 2 100%;
-    text-align: center;
-    justify-content: center;
-  }
-
-  .step-img {
-    flex: 0 32%;
-    margin-right: 0;
-    margin-top: 15px;
-    margin-bottom: 15px;
-  }
-
-  .step-text {
-    flex: 100%;  
-  }
-
-  .trainer-bio h3, .trainer-bio h4 {
+  .project-bio h3, .project-bio h4 {
     display: block;
   }
 }
 
 /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
 @media screen and (max-width: 575px) {
-  .hero-form button {
-    width: 100%;
-  }
 
   .section-title {
     width: 95%;
@@ -371,7 +336,7 @@ img{
     width: 100%;
   }
 
-  .trainer {
+  .project-card {
     flex: 0 100%;
   }
 
@@ -381,9 +346,5 @@ img{
 
   .contact-info > * {
     flex: 0 100%;
-  }
-
-  .contact-form {
-    order: 3;
   }
 }
