@@ -3,8 +3,7 @@
   ![badge](https://img.shields.io/badge/license-MIT-important)
 
   ## Description
-
-    I was tasked for a challenge to create a portfolio using semantic html and advanced css. No other technologies were used in the process.
+  I was tasked for a challenge to create a portfolio using semantic html and advanced css. No other technologies were used in the process.
 
   ## Table of Contents
   - [Description](#Description)
